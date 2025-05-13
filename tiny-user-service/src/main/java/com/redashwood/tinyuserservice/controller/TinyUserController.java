@@ -18,7 +18,7 @@ public class TinyUserController {
 
     @PostMapping(value = "/v1/tiny/user", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
     public TinyUserDTO registerUser(@RequestBody TinyUserDTO tinyUserDTO) {
-       return tinyUserService.registerUser(tinyUserDTO);
+        return tinyUserService.registerUser(tinyUserDTO);
     }
 
     @PutMapping(value = "/v1/tiny/user", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)

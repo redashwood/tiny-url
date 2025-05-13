@@ -7,11 +7,11 @@ import org.springframework.stereotype.Service;
 
 public interface TinyUserService {
 
-        public TinyUserDTO registerUser(TinyUserDTO tinyUserDTO);
+    public TinyUserDTO registerUser(TinyUserDTO tinyUserDTO);
 
-        public TinyUserDTO getUserByUsername(String username);
+    public TinyUserDTO getUserByUsername(String username);
 
-        public TinyUserDTO updateUser(TinyUserDTO tinyUserDTO);
+    public TinyUserDTO updateUser(TinyUserDTO tinyUserDTO);
 
-        public TinyUserDTO deleteUserByUsername(String username);
+    public TinyUserDTO deleteUserByUsername(String username);
 }
